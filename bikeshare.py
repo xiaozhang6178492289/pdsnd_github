@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -54,7 +55,7 @@ def get_filters():
             day = day
             break
         else:
-            print("Wrong input, choose one from all, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday: ") 
+            print("Wrong input, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday: ") 
           
     print('-'*40)
     return city, month, day
@@ -224,3 +225,4 @@ def main():
       
 if __name__ == "__main__":
 	main()
+
