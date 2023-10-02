@@ -7,7 +7,7 @@ Oct 2 2023
 **Bikeshare**
 
 ### Description
-This repo is for user information python script, such as trip duration, station parked.
+This _repo_ is for user information python script, such as trip duration, station parked.
 
 ### Files used
 data files: washington.csv, new_york.csv, chicago.csv
