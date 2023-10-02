@@ -30,7 +30,7 @@ def get_filters():
             city = city_name
             break
         else:
-            print("wrong input choose one from chicago, new york city, washington") 
+            print("wrong input choose one city from chicago, new york city, washington") 
             
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
